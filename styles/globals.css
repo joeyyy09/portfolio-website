@@ -16,6 +16,20 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    
+}
+.banner{
+  background-image: url('../public/banner-bg.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.skills,.edac,.main{
+ background-image: url('../public/beautiful-night-sky-with-shiny-stars.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 a {

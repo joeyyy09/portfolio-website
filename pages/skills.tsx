@@ -1,24 +1,30 @@
-import React from "react";
-import SkillsCard from "./skillsCard";
+import SkillsImages from "./skillsImages";
+import skillsURLs from "./data/skillsURLs";
+export default function Skills(){
+  const skillsComp = skillsURLs.map((skill) => {
+    return <SkillsImages key={skill.id} url={skill.url} />;
+  });
+    return (
+      <>
+        {" "}
+        <section id="skills" className=" px-10 mb-0 md:mb-20">
+          <h1 className="text-2xl font-russo font-normal text-orange-500 md:text-5xl 2xl:text-6xl">
+            Skills
+          </h1>
+          <div className="flex gap-1 gap-x-8 flex-wrap justify-center items-center ">
+            {/* <SkillsImages directionLeft={false} />
+            <SkillsImages directionLeft={false} />
+            <SkillsImages directionLeft={false} />
+            <SkillsImages directionLeft={false} />
+            <SkillsImages directionLeft={false} />
+            <SkillsImages directionLeft={false} />
+            <SkillsImages directionLeft={false} />
+            <SkillsImages directionLeft={false} /> */}
+            {skillsComp}
+          </div>
+        </section>
+      </>
+    );
+}
 
-type Props={};
 
- function Skills({}:Props){
-    return <div>
-      <div className="mb-32">
-      <div className="">
-      
-      <h1 className=" text-4xl md:text-6xl mt-8 md:py-8 font-russo font-normal text-orange-500">Projects</h1>
-    
-    <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
-        <SkillsCard />
-        <SkillsCard />
-        <SkillsCard />
-        <SkillsCard />
-
-      </div></div>
-     </div></div>
-    }
-      
-    
-export default Skills;
