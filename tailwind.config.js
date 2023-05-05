@@ -12,6 +12,7 @@ module.exports = {
         russo:"Russo one",
         dancingScript:"Dancing Script",
         amatic:"AmaticSC",
+        monteserrat:"monteserrat"
 
       }
     },

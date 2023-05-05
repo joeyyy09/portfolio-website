@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 html,
 body {
   max-width: 100vw;
@@ -48,6 +47,10 @@ a {
  @font-face {
   font-family: "AmaticSC";
   src: url("../public/AmaticSC.ttf");
+ }
+  @font-face {
+  font-family: "monteserrat";
+  src: url("../public/monteserrat.ttf");
  }
 
 @media (prefers-color-scheme: dark) {

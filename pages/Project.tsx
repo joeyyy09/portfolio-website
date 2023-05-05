@@ -12,19 +12,19 @@ function Project({}: Props) {
         title={project.title}
         description1={project.description1}
         description2={project.description2}
-        description3={project.description3}
-        description4={project.description4}
+        // description3={project.description3}
+        // description4={project.description4}
       />
     );
   });
   return (
-    <motion.div className=" px-10 grid-cols-2">
+    <motion.div className="md:px-10 px-6 grid-cols-2">
       <div className="mb-8 md:mb-24 2xl:mb-52">
         <div className="">
-          <h1 className=" text-2xl md:text-5xl 2xl:text-6xl mt-8  font-russo font-normal text-orange-500">
+          <h1 className=" text-3xl mb-4 md:text-5xl 2xl:text-6xl mt-8  font-russo font-normal text-orange-500">
             Projects
           </h1>
-          <div className="flex gap-1 gap-x-8 flex-wrap justify-center items-center ">
+          <div className="flex gap-8 gap-x-8 flex-wrap justify-center items-center ">
             {/* <ProjectCard />
             <ProjectCard />
             <ProjectCard />
