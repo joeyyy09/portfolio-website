@@ -1,5 +1,4 @@
 import Image from "next/image";
-import avatar from "../public/Avatar.png";
 import { motion } from "framer-motion";
 import Text from "./Text";
 import Project from "./Project";
@@ -8,8 +7,7 @@ import Footer from "./Footer";
 import Achievements from "./achievements";
 import Education from "./education";
 import Skills from "./skills";
-const Fade = require("react-reveal/Fade");
-const Zoom = require("react-reveal/Zoom");
+const Fade = require("react-reveal/Fade")
 export default function Home() {
   return (
     <div className="main">
