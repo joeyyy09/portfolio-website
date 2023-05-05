@@ -71,9 +71,9 @@ export default function Home() {
             </h3>
             <p className=" px-10 md:mt-10 mt-4 text-xs text-gray-200 md:text-lg">
               {" "}
-              I'm an enthusiastic developer with a passion for creating
+              {"I'm"} an enthusiastic developer with a passion for creating
               innovative solutions and solving problems through code. As a
-              beginner, I'm always eager to learn new technologies and expand my
+              beginner, {"I'm"} always eager to learn new technologies and expand my
               skillset.
             </p>
           </motion.div>

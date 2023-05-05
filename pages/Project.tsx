@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import { motion } from "framer-motion";
-import project from "./data/project";
+import project from "../utils/project";
 type Props = {};
 
 function Project({}: Props) {

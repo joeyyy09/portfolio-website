@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Achievements() {
   return (
     <section className="px-10 2xl:py-4">
@@ -11,9 +13,10 @@ export default function Achievements() {
 
       <ul className=" text-sm md:text-lg mb-8 space-y-4 md:space-y-2 2xl:space-y-4  text-left text-gray-500 dark:text-gray-300">
         <li className="md:text-base text-xs flex items-center space-x-3">
-          <img
+          <Image
             src="https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-vector-trophy-icon-png-image_924782.jpg"
             className=" w-8 h-8 rounded-full"
+            alt=""
           />
           <span>
             Stood amongst the top 1 percentile in JEE Mains out of 10 Lakh+
@@ -21,19 +24,21 @@ export default function Achievements() {
           </span>
         </li>
         <li className="md:text-base text-xs flex items-center space-x-3">
-          <img
+          <Image
             src="https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-vector-trophy-icon-png-image_924782.jpg"
             className="w-8 h-8 rounded-full"
+            alt=""
           />
           <span>
-            Winner in the Mobile Designing category of AASF's UI / UX Designing
+            Winner in the Mobile Designing category of {"AASF's"} UI / UX Designing
             Contest, Aakriti conducted during my freshman year.
           </span>
         </li>
         <li className=" text-xs flex items-center space-x-3 md:text-base">
-          <img
+          <Image
             src="https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-vector-trophy-icon-png-image_924782.jpg"
             className="w-8 h-8 rounded-full"
+            alt=""
           />
           <span>
             Batch Representative: AASF, The Techno - Managerial Forum of ABV -

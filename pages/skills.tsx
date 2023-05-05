@@ -1,5 +1,5 @@
 import SkillsImages from "./skillsImages";
-import skillsURLs from "./data/skillsURLs";
+import skillsURLs from "../utils/skillsURLs";
 export default function Skills(){
   const skillsComp = skillsURLs.map((skill) => {
     return <SkillsImages key={skill.id} url={skill.url} />;
