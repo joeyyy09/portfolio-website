@@ -87,13 +87,13 @@ export default function Home() {
         </div>
 
         <section className="edac">
-          <Fade duration={1500}>
+          <Fade duration={500}>
             <Skills />
           </Fade>
-          <Fade duration={1500}>
+          <Fade duration={500}>
             <Achievements />
           </Fade>
-          <Fade duration={1500}>
+          <Fade duration={500}>
             <Education />
           </Fade>
         </section>
