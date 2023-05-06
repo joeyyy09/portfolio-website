@@ -8,7 +8,9 @@ import Achievements from "./achievements";
 import Education from "./education";
 import Avatar from "../public/Avatar.png";
 import Skills from "./skills";
-const Fade = require("react-reveal/Fade")
+import { Fade } from "react-awesome-reveal";
+
+
 export default function Home() {
   return (
     <div className="main">
@@ -36,6 +38,7 @@ export default function Home() {
             <Image
               className=" flex justify-center ml-8 h-60 w-60 object-cover  border-4 border-orange-500 rounded-full md:h-96 md:w-96 md:float-right "
               src={Avatar}
+              priority={true}
               width={1280}
               height={1280}
               alt={""}
@@ -54,11 +57,11 @@ export default function Home() {
               scale: 1,
             }}
             transition={{
-              duration: 0.5,
+              duration:1,
             }}
             className="text-left "
           >
-            <h1 className=" px-10 md:text-4xl mt-16 md:mt-36 font-dancingScript font-normal text-2xl 2xl:text-6xl">
+            <h1 className=" px-10 md:text-4xl mt-8 md:mt-36 font-dancingScript font-normal text-2xl 2xl:text-6xl">
               Hi There!
             </h1>
             <h2 className=" px-10 md:mt-4 md:text-6xl  text-orange-500 font-russo text-3xl font-semibold 2xl:text-8xl">
@@ -69,7 +72,7 @@ export default function Home() {
               Developer and an UI/UX Designer.
             </h3>
             <div>
-              <p className=" px-10 md:mt-10 font-monteserrat mt-10 text-sm text-gray-200 md:text-lg">
+              <p className=" px-10 md:mt-10 font-monteserrat mt-8 text-sm text-gray-200 md:text-lg">
                 {" "}
                 {"I'm"} an enthusiastic developer with a passion for creating
                 innovative solutions and solving problems through code. As a

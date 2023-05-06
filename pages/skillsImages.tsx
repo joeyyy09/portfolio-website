@@ -13,6 +13,7 @@ function SkillsImages(props: { url: string | undefined; }) {
     >
       <Image
         src={props.url!}
+        priority={true}
         className="rounded-full border border-orange-500 mt-4 md:mt-8 object-fill w-12 h-12 mb-4 md:mb-8 md:w-32 md:h-32"
         alt=""
         width={1920}

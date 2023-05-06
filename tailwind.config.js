@@ -8,13 +8,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        burtons: "burtons",
-        russo: "Russo one",
-        dancingScript: "Dancing Script",
+        russo: "RussoOne",
+        dancingScript: "dancingScript",
         amatic: "AmaticSC",
-        monteserrat: "monteserrat",
-        dancingScript: "Dancing Script",
-        russo: "Russo One",
       },
     },
   },

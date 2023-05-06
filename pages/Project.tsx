@@ -2,8 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import { motion } from "framer-motion";
 import project from "../utils/project";
-const Fade = require("react-reveal/Fade");
-
+import { Fade } from "react-awesome-reveal";
 type Props = {};
 
 function Project({}: Props) {

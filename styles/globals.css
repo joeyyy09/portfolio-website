@@ -40,10 +40,7 @@ a {
   box-sizing:border-box; 
 }
 
- @font-face {
-  font-family: "burtons";
-  src: url("../public/Burtons.otf");
- }
+
  @font-face {
   font-family: "AmaticSC";
   src: url("../public/AmaticSC.ttf");
@@ -53,7 +50,7 @@ a {
   src: url("../public/monteserrat.ttf");
   }
     @font-face {
-  font-family: "russo";
+  font-family: "russoOne";
   src: url("../public/RussoOne.ttf");
  }
 
