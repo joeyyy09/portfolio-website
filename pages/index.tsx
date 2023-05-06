@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="main">
       <main className="">
-        <section className="min-h-screen banner">
+        <section className="min-h-screen banner pb-2">
           <Nav />
           <motion.div
             id="Home"
@@ -30,7 +30,7 @@ export default function Home() {
             transition={{
               duration: 0.5,
             }}
-            className="xl:mt-50 mt-40 px-10"
+            className="xl:mt-40 mt-20 px-10"
           >
             {/* relative bg-teal-500 rounded-full my-1 */}
             <Image
@@ -58,18 +58,18 @@ export default function Home() {
             }}
             className="text-left "
           >
-            <h1 className=" px-10 md:text-4xl mt-4 md:mt-36 font-dancingScript font-normal text-2xl 2xl:text-6xl">
+            <h1 className=" px-10 md:text-4xl mt-16 md:mt-36 font-dancingScript font-normal text-2xl 2xl:text-6xl">
               Hi There!
             </h1>
             <h2 className=" px-10 md:mt-4 md:text-6xl  text-orange-500 font-russo text-3xl font-semibold 2xl:text-8xl">
               {" "}
               <Text />
             </h2>
-            <h3 className="px-10 font-amatic text-3xl font-medium mt:4 md:mt-2 text-teal-200 md:text-5xl">
+            <h3 className="px-10 font-amatic text-3xl font-medium mt:6 md:mt-2 text-teal-200 md:text-5xl">
               Developer and an UI/UX Designer.
             </h3>
             <div>
-              <p className=" px-10 md:mt-10 font-monteserrat mt-4 text-sm text-gray-200 md:text-lg">
+              <p className=" px-10 md:mt-10 font-monteserrat mt-10 text-sm text-gray-200 md:text-lg">
                 {" "}
                 {"I'm"} an enthusiastic developer with a passion for creating
                 innovative solutions and solving problems through code. As a
@@ -90,11 +90,11 @@ export default function Home() {
           <Fade duration={1500}>
             <Skills />
           </Fade>
-          <Fade left duration={1000}>
-            <Education />
-          </Fade>
-          <Fade left duration={1000}>
+          <Fade duration={1500}>
             <Achievements />
+          </Fade>
+          <Fade duration={1500}>
+            <Education />
           </Fade>
         </section>
       </main>

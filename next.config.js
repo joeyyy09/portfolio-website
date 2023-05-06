@@ -11,6 +11,11 @@ module.exports = {
       "cdn-icons-png.flaticon.com",
       "firebase.google.com",
       "png.pngtree.com",
+      "cdn.iconscout.com",
+      "upload.wikimedia.org",
+      "cdn4.iconfinder.com",
+      "image.pngaaa.com",
+      "upload.wikimedia.org",
     ],
   },
 };

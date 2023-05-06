@@ -51,6 +51,15 @@ a {
   @font-face {
   font-family: "monteserrat";
   src: url("../public/monteserrat.ttf");
+  }
+    @font-face {
+  font-family: "russo";
+  src: url("../public/RussoOne.ttf");
+ }
+
+    @font-face {
+  font-family: "dancingScript";
+  src: url("../public/dancingScript.ttf");
  }
 
 @media (prefers-color-scheme: dark) {

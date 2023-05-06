@@ -9,7 +9,7 @@ function SkillsImages(props: { url: string | undefined; }) {
   return (
     <motion.div
       whileHover={{ scale: 1.2 }}
-      className="flex xl:flex-lg justify-around items-center"
+      className="animate-wiggle flex xl:flex-lg justify-around items-center"
     >
       <Image
         src={props.url!}

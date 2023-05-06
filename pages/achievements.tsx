@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Achievements() {
   return (
-    <section className="md:px-4 px-4 pb-4 pt-4 2xl:py-4">
+    <section className="md:px-4 px-4 pb-4 2xl:py-4">
       <h3
         id="Achievements
 "

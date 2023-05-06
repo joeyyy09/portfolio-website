@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Education() {
   return (
-    <motion.div className="px-6 md:px-10">
+    <motion.div className="px-6 md:px-10 pb-6">
       <h3 className="text-3xl mt-30 mb-6 md:mt-8 font-russo font-normal pt-8 2xl:mb-8 md:mb-4 text-orange-500 md:text-5xl 2xl:text-6xl">
         Education
       </h3>

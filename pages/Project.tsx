@@ -2,6 +2,8 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import { motion } from "framer-motion";
 import project from "../utils/project";
+const Fade = require("react-reveal/Fade");
+
 type Props = {};
 
 function Project({}: Props) {
@@ -24,13 +26,15 @@ function Project({}: Props) {
           <h1 className=" text-3xl mb-4 md:text-5xl 2xl:text-6xl mt-8  font-russo font-normal text-orange-500">
             Projects
           </h1>
-          <div className="flex gap-8 gap-x-8 flex-wrap justify-center items-center ">
-            {/* <ProjectCard />
+          <Fade duration={1500} >
+            <div className="flex gap-8 gap-x-8 flex-wrap justify-center items-center ">
+              {/* <ProjectCard />
             <ProjectCard />
             <ProjectCard />
             <ProjectCard /> */}
-            {projectComp}
-          </div>
+              {projectComp}
+            </div>
+          </Fade>
         </div>
       </div>
     </motion.div>
