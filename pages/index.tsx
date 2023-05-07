@@ -9,10 +9,8 @@ import Education from "./education";
 import Avatar from "../public/Avatar.png";
 import Skills from "./skills";
 import { Fade } from "react-awesome-reveal";
-
-export const config = {
-  unstable_runtimeJS: false,
-};
+import React from "react";
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
   return (
@@ -20,9 +18,7 @@ export default function Home() {
       <main className="">
         <section className="min-h-screen banner pb-2">
           <Nav />
-          <motion.div
-            className="xl:mt-40 mt-20 px-10"
-          >
+          <motion.div className="xl:mt-40 mt-20 px-10">
             {/* relative bg-teal-500 rounded-full my-1 */}
             <Image
               className=" flex justify-center ml-8 h-60 w-60 object-cover  border-4 border-orange-500 rounded-full md:h-96 md:w-96 md:float-right "
@@ -34,15 +30,22 @@ export default function Home() {
             />
           </motion.div>
 
-          <motion.div
-            className="text-left "
-          >
+          <motion.div className="text-left ">
             <h1 className=" px-10 md:text-4xl mt-8 md:mt-36 font-dancingScript font-normal text-2xl 2xl:text-6xl">
               Hi There!
             </h1>
             <h2 className=" px-10 md:mt-4 md:text-6xl  text-orange-500 font-russo text-3xl font-semibold 2xl:text-8xl">
               {" "}
-              <Text />
+              {/* <Text /> */}
+              <div>
+                <Typewriter
+                  options={{
+                    strings: ["Harshith Mente here."],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </div>{" "}
             </h2>
             <h3 className="px-10 font-amatic text-3xl font-medium mt:6 md:mt-2 text-teal-200 md:text-5xl">
               Developer and an UI/UX Designer.
