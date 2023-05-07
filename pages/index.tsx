@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <div className="main">
       <main className="">
-        <section className="min-h-screen banner pb-2">
+        <section className="min-h-screen pb-2">
           <Nav />
-          <motion.div className="xl:mt-40 mt-20 px-10">
+          <motion.div className="xl:mt-40 -translate-y-12 md:mt-20 mt-10 px-10">
             {/* relative bg-teal-500 rounded-full my-1 */}
             <Image
               className=" flex justify-center ml-8 h-60 w-60 object-cover  border-4 border-orange-500 rounded-full md:h-96 md:w-96 md:float-right "
