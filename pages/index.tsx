@@ -22,19 +22,6 @@ export default function Home() {
           <Nav />
           <motion.div
             id="Home"
-            initial={{
-              x: 500,
-              opacity: 0,
-              scale: 0.5,
-            }}
-            animate={{
-              x: 0,
-              opacity: 1,
-              scale: 1,
-            }}
-            transition={{
-              duration: 0.5,
-            }}
             className="xl:mt-40 mt-20 px-10"
           >
             {/* relative bg-teal-500 rounded-full my-1 */}
@@ -49,19 +36,6 @@ export default function Home() {
           </motion.div>
 
           <motion.div
-            initial={{
-              x: -500,
-              opacity: 0,
-              scale: 0.5,
-            }}
-            animate={{
-              x: 0,
-              opacity: 1,
-              scale: 1,
-            }}
-            transition={{
-              duration:1,
-            }}
             className="text-left "
           >
             <h1 className=" px-10 md:text-4xl mt-8 md:mt-36 font-dancingScript font-normal text-2xl 2xl:text-6xl">
