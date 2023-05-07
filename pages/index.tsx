@@ -10,6 +10,9 @@ import Avatar from "../public/Avatar.png";
 import Skills from "./skills";
 import { Fade } from "react-awesome-reveal";
 
+export const config = {
+  unstable_runtimeJS: false,
+};
 
 export default function Home() {
   return (

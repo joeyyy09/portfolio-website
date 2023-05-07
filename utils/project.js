@@ -1,3 +1,4 @@
+
 const project = [
   {
     id: 1,
@@ -8,6 +9,7 @@ const project = [
       " Used Node and Express to create a backend server, Axios to handle all the HTTP requests and JWT for token-based authentication",
     description3:
       "Developed the User Interface using ReactJS, a popular JavaScript library for building UI components.",
+    img: require("../public/passman.jpeg"),
   },
   {
     id: 2,
@@ -18,6 +20,7 @@ const project = [
       "Used Node and Express to create a backend server and to handle multiple API routes.",
     description3:
       "Used MongoDB, a NoSQL document database for storing unstructured data such as expense records.",
+    img: require("../public/foodfiesta.png"),
   },
   {
     id: 3,
@@ -30,6 +33,7 @@ const project = [
       "Used MongoDB, a NoSQL document database for storing unstructured data such as expense records.",
     description4:
       "Used Node and Express to create a backend server and to handle multiple API routes.",
+    img: require("../public/expense-tracker.png"),
   },
 ];
 export default project;
