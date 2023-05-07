@@ -14,6 +14,7 @@ function Project({}: Props) {
         description1={project.description1}
         description2={project.description2}
         img={project.img}
+        url={project.url}
         // description3={project.description3}
         // description4={project.description4}
       />

@@ -10,30 +10,25 @@ const project = [
     description3:
       "Developed the User Interface using ReactJS, a popular JavaScript library for building UI components.",
     img: require("../public/passman.jpeg"),
+    url: "https://github.com/joeyyy09/PassMan",
   },
   {
     id: 2,
     title: "FoodFiesta: Food Delivery",
     description1:
-      "Developed the User Interface using ReactJS, a popular JavaScript library for building UI components. Designed and implemented features such as forms, and charts to display expenses and income data.",
-    description2:
-      "Used Node and Express to create a backend server and to handle multiple API routes.",
-    description3:
-      "Used MongoDB, a NoSQL document database for storing unstructured data such as expense records.",
+"Built using ReactJS, Tailwind CSS, NodeJS, Firebase, Express, REST APIs, Redux, and authentication implemented using Google authentication.",   
+ description2:"Includes a home page with a slider and featured dishes, a menu page with all the dishes listed, and an add-to-cart page where users can add dishes to their cart and place an order.",
     img: require("../public/foodfiesta.png"),
+    url: "https://github.com/joeyyy09/FoodFiesta",
   },
   {
     id: 3,
     title: "CoinKeeper: Expense Tracker ",
-    description1:
-      "Developed the User Interface using ReactJS, a popular JavaScript library for building UI components. ",
+    description1:"Developed the User Interface using ReactJS, a popular JavaScript library for building UI components, and implemented styled-components for styling.",
     description2:
       "Designed and implemented features such as forms, and charts to display expenses and income data.",
-    description3:
-      "Used MongoDB, a NoSQL document database for storing unstructured data such as expense records.",
-    description4:
-      "Used Node and Express to create a backend server and to handle multiple API routes.",
     img: require("../public/expense-tracker.png"),
+    url: "https://github.com/joeyyy09/expense-tracker",
   },
 ];
 export default project;

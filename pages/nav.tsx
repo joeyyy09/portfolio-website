@@ -25,7 +25,7 @@ export default function Nav() {
           <motion.div whileTap={{ scale: 0.75 }} whileHover={{ scale: 1.1 }}>
             <a
               className=" px-4 py-3  text-sm md:text-lg bg-orange-500 text-white md:px-6 md:py-4 rounded-md ml-8"
-              href="#"
+              href="https://drive.google.com/file/d/16ApCejFT9UtmTHhzlrTg5i0MiRq_JV1P/view?usp=share_link"
             >
               Resume
             </a>
