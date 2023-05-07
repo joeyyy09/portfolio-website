@@ -21,7 +21,6 @@ export default function Home() {
         <section className="min-h-screen banner pb-2">
           <Nav />
           <motion.div
-            id="Home"
             className="xl:mt-40 mt-20 px-10"
           >
             {/* relative bg-teal-500 rounded-full my-1 */}
