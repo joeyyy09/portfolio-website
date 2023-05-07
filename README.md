@@ -1,17 +1,17 @@
-# Harshith's Portfolio
+# Harshith's Portfolio 💻
 
-Welcome to my portfolio website built using Next.js and Tailwind CSS. This is a showcase of my skills and projects I have developed so far. Visitors can browse through my projects and visit the GitHub links to the repositories by clicking on them. They can also view my GitHub, Instagram, and LinkedIn profiles, as well as my resume. Additionally, I have included information on my achievements and education history.
+Welcome to my portfolio website built using Next.js and Tailwind CSS. This is a showcase of my skills and projects I have developed so far. Visitors can browse through my projects and visit the GitHub links to the repositories by clicking on them. They can also view my GitHub, Instagram, and LinkedIn profiles, as well as my resume. Additionally, I have included information on my achievements and education history 🏆🎓.
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+- 🚀 [Getting Started](#getting-started)
+- ✨ [Features](#features)
+- 🔧 [Technologies Used](#technologies-used)
+- 🌐 [Deployment](#deployment)
+- 🤝 [Contributing](#contributing)
+- 📄 [License](#license)
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -29,14 +29,14 @@ To run this website, you need to have Node.js and npm installed on your system.
 
 To build the website for production, run `npm run build` followed by `npm run start`. This will create an optimized production build in the `.next` directory and start the server.
 
-### Features
+## ✨ Features
 
-- Responsive design using Tailwind CSS.
-- Home page with a brief introduction and links to social media profiles.
-- Projects page with a list of my projects, including descriptions and links to their GitHub repositories.
-- Achievements and education history pages.
+- Responsive design using Tailwind CSS 🎨.
+- Home page with a brief introduction and links to social media profiles 🏠👨‍💻.
+- Projects page with a list of my projects, including descriptions and links to their GitHub repositories 📝👨‍💻.
+- Achievements and education history pages 🏆🎓.
 
-### Technologies Used
+## 🔧 Technologies Used
 
 - Next.js
 - Tailwind CSS
@@ -44,14 +44,14 @@ To build the website for production, run `npm run build` followed by `npm run st
 - Node.js
 - npm
 
-### Deployment
+## 🌐 Deployment
 
 This website can be easily deployed to a variety of platforms, including Vercel and Heroku. Simply link the repository to the deployment platform and follow their instructions for deployment.
 
-### Contributing
+## 🤝 Contributing
 
 If you find any issues with this website or have suggestions for improvements, please feel free to create a pull request or open an issue on the GitHub repository.
 
-### License
+## 📄 License
 
 This project is licensed to Harshith Mente.
