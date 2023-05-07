@@ -1,28 +1,57 @@
-# Next.js + Tailwind CSS Example
+# Harshith's Portfolio 💻
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Welcome to my portfolio website built using Next.js and Tailwind CSS. This is a showcase of my skills and projects I have developed so far. Visitors can browse through my projects and visit the GitHub links to the repositories by clicking on them. They can also view my GitHub, Instagram, and LinkedIn profiles, as well as my resume. Additionally, I have included information on my achievements and education history 🏆🎓.
 
-## Deploy your own
+## Table of Contents
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- 🚀 [Getting Started](#getting-started)
+- ✨ [Features](#features)
+- 🔧 [Technologies Used](#technologies-used)
+- 🌐 [Deployment](#deployment)
+- 🤝 [Contributing](#contributing)
+- 📄 [License](#license)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## 🚀 Getting Started
 
-## How to use
+### Prerequisites
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+To run this website, you need to have Node.js and npm installed on your system.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+### Installation
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+1. Clone the repository or download the zip file.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install all the required dependencies.
+4. Run `npm run dev` to start the development server.
+5. Navigate to `http://localhost:3000` in your web browser to view the website.
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+### Building
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-# portfolio-website
+To build the website for production, run `npm run build` followed by `npm run start`. This will create an optimized production build in the `.next` directory and start the server.
+
+## ✨ Features
+
+- Responsive design using Tailwind CSS 🎨.
+- Home page with a brief introduction and links to social media profiles 🏠👨‍💻.
+- Projects page with a list of my projects, including descriptions and links to their GitHub repositories 📝👨‍💻.
+- Achievements and education history pages 🏆🎓.
+
+## 🔧 Technologies Used
+
+- Next.js
+- Tailwind CSS
+- React
+- Node.js
+- npm
+
+## 🌐 Deployment
+
+This website can be easily deployed to a variety of platforms, including Vercel and Heroku. Simply link the repository to the deployment platform and follow their instructions for deployment.
+
+## 🤝 Contributing
+
+If you find any issues with this website or have suggestions for improvements, please feel free to create a pull request or open an issue on the GitHub repository.
+
+## 📄 License
+
+This project is licensed to Harshith Mente.
